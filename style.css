@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section {
+    background-image: url(images/header-bg.png);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.top-left,
+.top-right {
+    width: 40%;
+    float: left;
+}
+
+.top-section .top-left {
+    margin-left: 10%;
+    padding-top: 100px;
+}
+
+.top-right {
+    margin-left: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.name-heighlight {
+    color: #EC4C7A;
+    font-size: 40px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #EC4C7A;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.biography .top-left {
+    margin-left: 5%;
+}
+
+.biography {
+    background-image: url(images/biography-bg.png);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.biography .top-right {
+    margin-left: 10%;
+    margin-top: 150px;
+}
+
+.biography .top-left img {
+    width: 80%;
+}
+
+.last-work {
+    min-height: 500px;
+    padding-top: 150px;
+    margin-left: 10%;
+    background-image: url(images/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.last-work .image {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin: 0 2.5%;
+}
+
+h1.latest {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    min-height: 400px;
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.email-area {
+    width: 30%;
+    padding: 10px 30px;
+    background-color: #EC4C7A;
+    margin: auto;
+    border-radius: 10px;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    background-color: slategrey;
+    padding: 20px 0;
+    margin: 0;
+    color: #fff;
+}
